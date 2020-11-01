@@ -41,3 +41,13 @@
   z-index: 2;
   text-align: center;
 }
+.bgImg .bgImgCover .asideContent{
+  position: absolute;
+  top: 10%;
+  left: 85%;
+  /* transform: translate(-50%, -50%); */
+  font-size: 1rem;
+  color: white;
+  z-index: 2;
+  text-align: center;
+}
