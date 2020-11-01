@@ -1,0 +1,23 @@
+.bgImg{
+  position: relative;
+  background-image: url('../images/moon-5202838.jpg');
+  height: 100vh;
+  background-size: 100%;
+}
+.bgImg .bgImgCover{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+.bgImg .bgImgCover .content{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  /* transform: translate(-50%, -50%); */
+  font-size: 2rem;
+  color: white;
+  z-index: 2;
+  text-align: center;
+}
