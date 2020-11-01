@@ -11,12 +11,32 @@
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
-.bgImg .bgImgCover .content{
+.bgImg .bgImgCover .HeaderContent{
   position: absolute;
   top: 2%;
   left: 2%;
   /* transform: translate(-50%, -50%); */
+  font-size: 1rem;
+  color: white;
+  z-index: 2;
+  text-align: center;
+}
+.bgImg .bgImgCover .mainContent{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 2rem;
+  color: white;
+  z-index: 2;
+  text-align: center;
+}
+.bgImg .bgImgCover .footerContent{
+  position: absolute;
+  top: 90%;
+  left: 85%;
+  /* transform: translate(-50%, -50%); */
+  font-size: 1rem;
   color: white;
   z-index: 2;
   text-align: center;
